@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/Prf2ZjX/Toyota.jpg",
+      "name": "Toyota",
+      "brandName": "Toyota-Glanza",
+      "type": "Automatic climate control car",
+      "price": "$2000",
+      "shortDescription": "The Toyota Glanza has 1 Petrol Engine and 1 CNG Engine on offer. The Petrol engine is 1197 cc while the CNG engine is 1197 cc. It is available with Manual & Automatic transmission. Depending upon the variant and fuel type the Glanza has a mileage of 22.35 kmpl to 30.61 km/kg. The Glanza is a 5 seater 4 cylinder car and has a length of 3990mm, width of 1745, and a wheelbase of 2520.",
+      "rating": "",
+      "addButton": ""
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/J5QnwgD/Ford.jpg",
+      "name": "Ford",
+      "brandName": "Ford EcoSport",
+      "type": "Ford EcoSport Car",
+      "price": "$2500",
+      "shortDescription": "The Ford EcoSport has 1 Diesel Engine and 1 Petrol Engine on offer. The Diesel engine is 1498 cc while the Petrol engine is 1496 cc. It is available with Manual & Automatic transmission. Depending upon the variant and fuel type the EcoSport has a mileage of 14.7 to 21.7 kmpl. The EcoSport is a 5 seater 4 cylinder car and has a length of 3998, width of 1765, and a wheelbase of 2519.",
+      "rating": "",
+      "addButton": ""
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/PtC0Rty/BMW.jpg",
+      "name": "BMW",
+      "brandName": "BMW-8-Series-Coupe",
+      "type": "BMW 8 Series Coupe",
+      "price": "$6000",
+      "shortDescription": "The BMW 8 Series is a range of grand tourer coupes and convertibles produced by BMW. The 8 Series was introduced in 1990 under the E31 model code and was only available as a two-door coupé. It is powered by a range of naturally aspirated V8 and V12 petrol engines.",
+      "rating": "",
+      "addButton": ""
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/MB9j8QV/Mercedes-Benz.jpg",
+      "name": "Mercedes-Benz",
+      "brandName": "Mercedes-Benz CLE",
+      "type": "Mercedes-Benz CLE ",
+      "price": "$9000",
+      "shortDescription": "The 2-door model will replace the C- and E-Class coupe and cabriolet with a muscular design, contemporary interior appointments and an extended range of electrified drivetrains. Mercedes-Benz officially confirms the CLE name for the upcoming successor to its existing C- and E-Class coupe and cabriolet models.",
+      "rating": "",
+      "addButton": ""
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/JFV4PXh/Tesla.jpg",
+      "name": "Tesla",
+      "brandName": "Tesla-ev-hatchback",
+      "type": "Tesla-ev-hatchback",
+      "price": "$5500",
+      "shortDescription": "A complete overview of the Tesla Model 3 specs and dimensions. Find out about its size, boot space, equipment, and more.",
+      "rating": "",
+      "addButton": ""
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/pwYVZ0b/Honda.jpg",
+      "name": "Honda",
+      "brandName": "Honda CR-V (RM)",
+      "type": "Honda CR-V (RM) Car",
+      "price": "$2800",
+      "shortDescription": "Engine Specification. Power. 136 kW ; Engine Configuration. Displacement. 2,354 cc / 2.4 l ; General. Fuel. Petrol ; Fuel Consumption NEDC. City. 10.7 l/100km.",
+      "rating": "",
+      "addButton": ""
+    }
+  ]
+  
