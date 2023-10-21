@@ -1,22 +1,34 @@
-import { useEffect, useState } from "react";
-import { useLoaderData, useParams } from 'react-router-dom';
-import DetailsCard from "../DetailsCard/DetailsCard";
+
+import { useLoaderData } from 'react-router-dom';
+import DetailsCard from './../DetailsCard/DetailsCard';
+import Slider from '../DetailsCard/Slider';
 
 
 const Details = () => {
-    const [carddetails,setCardDetails]=useState({});
-    const details = useLoaderData();
-    console.log(details);
-    const { id } = useParams();
-    console.log(id);
-    useEffect(()=>{
-      const findDetails = details?.find(detail=> detail.id === id);
-      setCardDetails(findDetails);
-    },[id,details])
+  const products=useLoaderData();
+  // console.log(products);
 
-    return (
-      <DetailsCard carddetails={carddetails}></DetailsCard>
-    );
+
+
+
+
+
+  
+  return (
+    <div>
+    <h2>This is Details Card: {products.length}</h2>
+    <div>
+      <Slider></Slider>
+    </div>
+    <div className="grid grid-cols-1 md:grid-cols-2  m-6">
+    {products && products.length > 0 && (
+      products.map(product=><DetailsCard key={product.id} product={product}></DetailsCard>)
+    )
+   }
+   
+    </div>
+  </div>
+  );
 };
 
 export default Details;

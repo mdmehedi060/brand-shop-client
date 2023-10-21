@@ -9,6 +9,8 @@ const Register = () => {
   const { createUser } = useContext(Authcontext);
 
   const handleRegister = (e) => {
+
+
     e.preventDefault();
     console.log(e.currentTarget);
     const form = new FormData(e.currentTarget);
@@ -40,8 +42,10 @@ const Register = () => {
     createUser(email, password)
       .then((result) => {
         console.log(result.user);
+       
         setSuccesss();
         swal("Good job!", "Your registetion successfully", "success");
+
       })
       .catch((error) => {
         console.error(error);

@@ -38,13 +38,24 @@ const handleLogin = (e) => {
 
 const handleGoogle =(e)=>{
   e.preventDefault();
+  const form = new FormData(e.currentTarget);
+  const email = form.get("email");
+  const password = form.get("password");
+  console.log(email, password);
+  
+  
   googleSignIn()
   .then(result =>{
     console.log(result.user);
+      
+    // navigate after login
+    navigate(location?.state ? location.state : '/');
+    swal("Good job!", "Your login successfully", "success");
     e.target.reset();
-      navigate('/')
+      
   })
   .catch(error=>console.error(error))
+  
 
 
 }

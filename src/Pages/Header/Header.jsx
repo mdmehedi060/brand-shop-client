@@ -35,7 +35,7 @@ const Header = () => {
           </div>
          <div className="flex p-2">
             <img className="h-12 w-12 rounded-full" src="https://i.ibb.co/x3ChKvd/logo-4.png" alt="" />
-            <a className="font-extrabold  text-blue-500 text-2xl">Mehedi Automotive</a>
+            <a className="font-extrabold  text-blue-500 text-2xl">MH Automotive</a>
          </div>
         </div>
         <div className="navbar-center hidden lg:flex">

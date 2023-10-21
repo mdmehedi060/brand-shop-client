@@ -11,6 +11,10 @@ import Register from './Pages/Register/Register';
 import AuthProvider from './Components/Providers/AuthProviders.jsx';
 import Privateroute from './Components/Routes/PrivateRouts';
 import Details from './Pages/Home/Details';
+import DetailsProduct from './Pages/DetailsProduct/DetailsProduct';
+import Updated from './Pages/Updated/Updated';
+import ErrorPages from './Pages/ErrorPages/ErrorPages';
+
 
 
 
@@ -19,22 +23,34 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Main></Main>,
+    errorElement:<ErrorPages></ErrorPages>,
     children:[
       {
         path: "/",
         element: <Home></Home>,
         loader: () => fetch("/category.json"),
       },
+     
       {
-        path: "/details/:id",
+        path: "/details/:name",
         element: <Privateroute><Details></Details></Privateroute>,
-        loader: () => fetch("/category.json"),
+        loader:({params})=> fetch(`https://assigntment-ten-server-pa7a1zqgh.vercel.app/products/${params?.name}`),
       
       },
       
       {
         path: "/addproduct",
         element: <Privateroute><AddProduct></AddProduct></Privateroute>,
+      },
+      {
+        path: "/detailsproduct/:id",
+        element: <DetailsProduct></DetailsProduct>,
+        loader:({params})=> fetch(`https://assigntment-ten-server-6ef5vsbua.vercel.app/products/${params.id}`)
+      },
+      {
+        path: "/update/:id",
+        element: <Updated></Updated>,
+        loader:({params})=> fetch(`https://assigntment-ten-server-6ef5vsbua.vercel.app/products/${params?.id}`)
       },
       {
         path:"/mycart",

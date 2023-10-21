@@ -1,62 +1,40 @@
 [
     {
-      "id": 1,
-      "image": "https://i.ibb.co/N3jYbTg/toyota-logo.jpg",
-      "name": "Toyota",
-      "brandname": "Toyota",
+      "id":1,
       "imageOne": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
       "imageTwo": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
       "imageThree": "https://i.ibb.co/JBWjp2X/toyata-2.jpg"
+      
     },
+   
     {
-      "id": 2,
-      "image": "https://i.ibb.co/LJxP6kZ/ford-logo.jpg",
-      "name": "Ford",
-      "brandname": "Ford",
+      "id":2,
       "imageOne": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
       "imageTwo": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
       "imageThree": "https://i.ibb.co/JBWjp2X/toyata-2.jpg"
       
     },
     {
-      "id": 3,
-      "image": "https://i.ibb.co/SXTBxxS/bmw-logo.webp",
-      "name": "BMW",
-      "brandname": "BMW",
-      "imageOne": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
-      "imageTwo": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
-      "imageThree": "https://i.ibb.co/JBWjp2X/toyata-2.jpg"
-     
-    },
-    {
-      "id": 4,
-      "image": "https://i.ibb.co/n187YVx/mercedes-logo.jpg",
-      "name": "Mercedes-Benz",
-      "brandname": "Mercedes-Benz",
+      "id":3,
       "imageOne": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
       "imageTwo": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
       "imageThree": "https://i.ibb.co/JBWjp2X/toyata-2.jpg"
       
     },
     {
-      "id": 5,
-      "image": "https://i.ibb.co/6NnXhY1/tesla-logo.jpg",
-      "name": "Tesla",
-      "brandname": "Tesla",
+      "id":4,
       "imageOne": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
       "imageTwo": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
       "imageThree": "https://i.ibb.co/JBWjp2X/toyata-2.jpg"
-     
+      
     },
     {
-      "id": 6,
-      "image": "https://i.ibb.co/Bs2RNf5/honda-logo.png",
-      "name": "Honda",
-      "brandname": "Honda",
+      "id":5,
       "imageOne": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
       "imageTwo": "https://i.ibb.co/JBWjp2X/toyata-2.jpg",
       "imageThree": "https://i.ibb.co/JBWjp2X/toyata-2.jpg"
-     
+      
     }
+    
   ]
   

@@ -5,10 +5,12 @@ import Footer from "../Pages/Home/Footer";
 
 const Main = () => {
     return (
-        <div className="max-w-7xl mx-auto">
-            <Header></Header>
+        <div  className="max-w-7xl mx-auto dark:bg-white">
+         
+           <Header></Header>
            <Outlet></Outlet> 
            <Footer></Footer>
+        
         </div>
     );
 };

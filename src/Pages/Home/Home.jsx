@@ -5,11 +5,12 @@ import CategoryCard from './CategoryCard';
 
 
 
+
 const Home = () => {
 const categorys = useLoaderData();
 
     return (
-        <div className="min-w-6xl">
+        <div className="min-w-6xl " >
           
           <Banner></Banner>
 
@@ -18,6 +19,7 @@ const categorys = useLoaderData();
               categorys.map(category=><CategoryCard key={category.id} category={category}> </CategoryCard>)
             }
           </div>
+       
         </div>
     );
 };
