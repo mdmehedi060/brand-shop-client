@@ -11,9 +11,9 @@ import Register from './Pages/Register/Register';
 import AuthProvider from './Components/Providers/AuthProviders.jsx';
 import Privateroute from './Components/Routes/PrivateRouts';
 import Details from './Pages/Home/Details';
-import DetailsProduct from './Pages/DetailsProduct/DetailsProduct';
 import Updated from './Pages/Updated/Updated';
 import ErrorPages from './Pages/ErrorPages/ErrorPages';
+import CardDetails from './Pages/DetailsProduct/CardDetails';
 
 
 
@@ -44,8 +44,8 @@ const router = createBrowserRouter([
       },
       {
         path: "/detailsproduct/:id",
-        element: <DetailsProduct></DetailsProduct>,
-        loader:({params})=> fetch(`https://assigntment-ten-server-6ef5vsbua.vercel.app/products/${params.id}`)
+        element: <Privateroute><CardDetails></CardDetails></Privateroute>,
+        loader:({params})=> fetch(`https://assigntment-ten-server-6ef5vsbua.vercel.app/products/${params?.id}`)
       },
       {
         path: "/update/:id",

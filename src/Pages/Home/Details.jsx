@@ -16,7 +16,7 @@ const Details = () => {
   
   return (
     <div>
-    <h2>This is Details Card: {products.length}</h2>
+    <h2 className='text-4xl font-bold text-center m-6'>Our Products</h2>
     <div>
       <Slider></Slider>
     </div>
